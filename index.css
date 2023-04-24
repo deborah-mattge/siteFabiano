@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300;400&display=swap');
+
+.cabecalho{
+    background: rgb(75,83,58);
+    background: linear-gradient(90deg, rgba(75,83,58,1) 27%, rgba(195,198,177,1) 75%, rgba(250,245,234,1) 100%);
+    display: flex;
+    position:sticky;
+    top: 0;
+
+    
+   
+    
+}
+body{
+    background-color: #c3c6b1;
+    font-family: 'Advent Pro', sans-serif;
+    
+    
+    
+}
+.teste{
+    margin: auto;
+   
+}
+
+
+#titulo{
+    color: white;
+    justify-content:center ;
+    display: flex;
+    padding: 6%;
+    background-color: #faf5ea;
+
+   
+
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+
+}
+.secao{
+    display: flex;
+    justify-content: center;
+}
+section{
+    margin: 3%;
+    margin-right: 5%;
+    display:block;
+    background-color: #faf5ea;
+    width: 93%;
+    height: 85%;
+    border: 5px solid #faf5ea;
+    border-radius: 30px;
+   
+    
+}
+.branco{
+    margin: 3%; 
+    padding: 0.5%;
+    display:flex;
+    background-color:#ffffff;
+    width: 92%;
+    height: 70%;
+    color: black;
+   font-size: 20px;
+
+}
+
+.imagens{
+   max-width: 170px; 
+    height: auto; 
+    margin-right:20px ;
+    margin-left:20px
+}
+.textos{
+    padding: 10px;
+    text-align: justify;
+
+
+}
+strong{
+    color: #4B533A;
+   
+    
+}
+nav {
+    background-color: #4b533a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-self: center;
+  }
+  nav{
+      display: flex;
+    justify-self:end;
+    
+
+  }
+  
+  nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+  }
+  
+  nav li {
+    margin:10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+footer{
+    background: rgb(75,83,58);
+    display: flex;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    font-size: 22px;
+    text-align: center;
+}
+.sobre{
+    margin: 3%; 
+    padding: 7%;
+    display:flex;
+    background-color:#ffffff;
+    width: 92%;
+    height: 70%;
+    color: black;
+   font-size: 25px;
+   border-radius: 30px;
+   text-align: justify;
+
+}
+.categoria{
+    margin: 3%; 
+    padding: 7%;
+    display:flex;
+    background-color:#ffffff;
+    width: 80%;
+    height: 70%;
+    color: black;
+   font-size: 20px;
+   font-size: 30px;
+   
+}.fonteGrande{
+    color: #4B533A;
+    font-size: 35px;
+}
