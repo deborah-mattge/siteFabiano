@@ -113,7 +113,7 @@ nav {
   
   nav a {
     color: #fff;
-    text-decoration: none;
+    font-size: 17px;
   }
 footer{
     background: rgb(75,83,58);
@@ -145,8 +145,8 @@ footer{
     width: 80%;
     height: 70%;
     color: black;
-   font-size: 20px;
-   font-size: 30px;
+   font-size: 25px;
+   
    
 }.fonteGrande{
     color: #4B533A;
